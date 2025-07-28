@@ -1,5 +1,6 @@
 import UserGreeting from "./UserGreeting.jsx";
 import Onchange from "./Onchange.jsx";
+import Colorpicker from "./Colorpicker.jsx";
 function App() {
   //usergeetings
 
@@ -9,8 +10,16 @@ function App() {
   //     </>
   // );
 
+  //onchange
+
+  // return(
+  //   <Onchange/>
+  // )
+
+  //colorpicker
+
   return(
-    <Onchange/>
+    <Colorpicker/>
   )
 }
 
