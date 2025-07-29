@@ -41,4 +41,4 @@ function DigitalClock() {
 
 export default DigitalClock 
 
-err
+console.error();
