@@ -2,6 +2,7 @@ import UserGreeting from "./UserGreeting.jsx";
 import Onchange from "./Onchange.jsx";
 import Colorpicker from "./Colorpicker.jsx";
 import ToDoList from "./ToDoList.jsx";
+import DigitalClock from "./DigitalClock.jsx";
 function App() {
   //usergeetings
 
@@ -25,8 +26,14 @@ function App() {
 
   //ToDoList
 
+  // return(
+  //   <ToDoList/>
+  // )
+
+  //digital clock
+
   return(
-    <ToDoList/>
+    <DigitalClock/>
   )
 }
 
