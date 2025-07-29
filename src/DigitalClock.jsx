@@ -40,5 +40,3 @@ function DigitalClock() {
 }
 
 export default DigitalClock 
-
-err
