@@ -40,5 +40,5 @@ function DigitalClock() {
 }
 
 export default DigitalClock 
- console.error();
+
  
