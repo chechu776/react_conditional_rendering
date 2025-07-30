@@ -24,7 +24,7 @@ function App() {
   //   <Colorpicker/>
   // )
 
-  //ToDoList
+  // ToDoList
 
   // return(
   //   <ToDoList/>
