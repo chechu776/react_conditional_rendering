@@ -19,9 +19,9 @@ function App() {
 
   //onchange
 
-  // return(
-  //   <Onchange/>
-  // )
+  return(
+    <Onchange/>
+  )
 
   //colorpicker
 
@@ -47,14 +47,14 @@ function App() {
   //   </ThemeProvider>
   // )
 
-  return(
-    <>
-      <nameContext.Provider value={"nadhil"} >
-        <Child1></Child1>
-        <Child2></Child2>
-      </nameContext.Provider>
-    </>
-  )
+  // return(
+  //   <>
+  //     <nameContext.Provider value={"nadhil"} >
+  //       <Child1></Child1>
+  //       <Child2></Child2>
+  //     </nameContext.Provider>
+  //   </>
+  // )
 
 
 }
