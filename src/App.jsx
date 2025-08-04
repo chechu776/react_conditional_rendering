@@ -3,6 +3,10 @@ import Onchange from "./Onchange.jsx";
 import Colorpicker from "./Colorpicker.jsx";
 import ToDoList from "./ToDoList.jsx";
 import DigitalClock from "./DigitalClock.jsx";
+import { ThemeProvider } from "./Themecontext.jsx";
+import Home from './Home';
+
+
 function App() {
   //usergeetings
 
@@ -32,9 +36,17 @@ function App() {
 
   //digital clock
 
-  return(
-    <DigitalClock/>
+  // return(
+  //   <DigitalClock/>
+  // )
+
+  return (
+    <ThemeProvider>
+      <Home />
+    </ThemeProvider>
   )
+
+
 
 }
 
